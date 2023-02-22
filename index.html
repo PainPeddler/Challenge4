@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Document</title>
+
+</head>
+<body>
+
+<section class = "countdown-timer">
+   <span id="minutes">5:00</span>
+   <span id="seconds"></span>
+</section>
+
+<section>
+    <h1 id="Question"></h1>
+    <div class = "choices"id="choices">
+    <h2 id="firstChoice"></h2>
+    <h2 id="secondChoice"></h2>
+    <h2 id="thirdChoice"></h2>
+    <h2 id="fourthChoice"></h2>
+    </div>
+</section>
+<section>
+    <form class="Highscores" id="Highscores" onsubmit="return false">
+        <p id="entry"> Nice going! You scored <span  id="score"></span>! Enter your initials below to save them</p>
+        <input type="text" class = username id="username" name="username" maxlength="3"><br><br>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+</section>
+<p class="highscorePage">
+    <span id="scoreTracker"Highscores></span>
+    <span id="initials"></span>
+    <span id ="clearScores">Clear Highscores</span>
+    <div class="playAgainBtn">
+        <span  id="playAgainBtn">Click here to Play Again</span>
+    </div>
+
+</p>
+<section id = "button" class="button">
+    <span  class="startBtn">Start</span>
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>
