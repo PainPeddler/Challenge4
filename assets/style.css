@@ -1,0 +1,76 @@
+*{ 
+    background-color: rgb(255, 221, 177)
+}
+.countdown-timer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+#minutes, #seconds{
+    background-color: blue;
+}
+
+#playAgainBtn, #clearScores {
+    visibility: hidden;
+}
+.playAgainbtn {
+    display:flex;
+    justify-content: center;
+}
+
+#playAgainBtn {
+    font-size: 300%;
+    background-color: crimson;
+    color: white;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10%;
+}
+#playAgainbtn :hover {
+    color: yellow;
+    box-shadow: 2px 4px black;
+    cursor: pointer;
+}
+#score {
+    font-weight: bold;
+}
+
+.Highscores > * {
+    visibility: hidden;
+    
+}
+.Highscores #submit, #username{
+    background-color: aqua;
+}
+
+
+
+.button {
+    bottom: 0;
+    justify-content: center;
+    display:flex;
+}
+
+.button .startBtn {
+    font-size: 400%;
+    font-style: italic;
+    background-color: crimson;
+    margin-top: 300px;
+    color: white;
+    border:solid;
+    border-color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10%;
+}
+.button :hover {
+    color: yellow;
+    box-shadow: 2px 4px black;
+    cursor: pointer;
+}
